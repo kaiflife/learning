@@ -14,7 +14,8 @@
     "format": "prettier --write \"**/*.{ts,tsx,css,json,md}\""
   },
   "dependencies": {
-    "react-router": "^8.3.1"
+    "react-router": "^8.3.1",
+    "zustand": "^5.0.15"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.3.3",

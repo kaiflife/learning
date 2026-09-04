@@ -1,1 +1,9 @@
 @import 'tailwindcss';
+
+@keyframes shine {
+  100% {
+    transform: translateX(300%);
+  }
+}
+
+@source "../../../remote-app/src/**/*.{ts,tsx}";
