@@ -1,3 +1,5 @@
+import { HeavyCalculator } from "@/features/heavy-calculation";
+
 export function DashboardPage() {
   return (
     <div className="p-6 bg-slate-900 text-white rounded-xl shadow-lg border border-slate-700">
@@ -8,6 +10,7 @@ export function DashboardPage() {
         Эти стили Tailwind v4 полностью изолированы и долетают до
         Host-приложения!
       </p>
+      <HeavyCalculator />
     </div>
   );
 }

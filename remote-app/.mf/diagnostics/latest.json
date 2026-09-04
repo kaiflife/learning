@@ -1,10 +1,10 @@
 {
   "latestErrorEvent": {
     "code": "TYPE-001",
-    "message": "Failed to generate type declaration. Execute the below cmd to reproduce and fix the error. #TYPE-001\nargs: {\"cmd\":\"C:\\\\nvm4w\\\\nodejs\\\\node.exe C:\\\\Users\\\\Admin\\\\work\\\\learning\\\\node_modules\\\\.bun\\\\typescript@6.0.3\\\\node_modules\\\\typescript\\\\bin\\\\tsc --project C:\\\\Users\\\\Admin\\\\work\\\\learning\\\\remote-app\\\\node_modules\\\\.federation\\\\tsconfig.9e41371e3f16283ae14063842cbc409c.json\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/type#type-001",
+    "message": "Failed to generate type declaration. Execute the below cmd to reproduce and fix the error. #TYPE-001\nargs: {\"cmd\":\"C:\\\\nvm4w\\\\nodejs\\\\node.exe C:\\\\Users\\\\Admin\\\\work\\\\learning\\\\node_modules\\\\.bun\\\\typescript@6.0.3\\\\node_modules\\\\typescript\\\\bin\\\\tsc --project C:\\\\Users\\\\Admin\\\\work\\\\learning\\\\remote-app\\\\node_modules\\\\.federation\\\\tsconfig.ab2a73391a55234b5800a9bb2681f356.json\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/type#type-001",
     "args": {
-      "cmd": "C:\\nvm4w\\nodejs\\node.exe C:\\Users\\Admin\\work\\learning\\node_modules\\.bun\\typescript@6.0.3\\node_modules\\typescript\\bin\\tsc --project C:\\Users\\Admin\\work\\learning\\remote-app\\node_modules\\.federation\\tsconfig.9e41371e3f16283ae14063842cbc409c.json"
+      "cmd": "C:\\nvm4w\\nodejs\\node.exe C:\\Users\\Admin\\work\\learning\\node_modules\\.bun\\typescript@6.0.3\\node_modules\\typescript\\bin\\tsc --project C:\\Users\\Admin\\work\\learning\\remote-app\\node_modules\\.federation\\tsconfig.ab2a73391a55234b5800a9bb2681f356.json"
     },
-    "timestamp": 1788531482683
+    "timestamp": 1788532472491
   }
 }
