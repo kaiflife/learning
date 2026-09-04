@@ -10,13 +10,23 @@ export default defineConfig({
       filename: "remoteEntry.js",
       exposes: {
         "./CounterButton": "./src/features/counter-button/index.ts",
+        "./RemoteRouter": "./src/app/index.ts",
       },
       shared: {
         react: { singleton: true },
         "react-dom": { singleton: true },
+        "react-router": { singleton: true, requiredVersion: "auto" },
       },
     }),
   ],
+  server: {
+    port: 5001, // Фиксируем порт 5001 для dev-сервера
+    cors: true, // Разрешаем CORS, чтобы host мог скачать remoteEntry.js
+  },
+  preview: {
+    port: 5001, // Фиксируем порт 5001 для preview-сервера
+    cors: true,
+  },
   build: {
     target: "esnext",
   },
